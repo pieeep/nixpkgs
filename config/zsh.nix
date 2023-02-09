@@ -16,7 +16,9 @@
     };
     initExtra = builtins.concatStringsSep "\n" [
       "unsetopt BEEP"
+      ""
       "zle_highlight=('paste:none')"
+      ""
       "zstyle ':completion:*' menu select"
       "_comp_options+=(globdots)"
       ""
