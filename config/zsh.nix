@@ -14,6 +14,7 @@
     localVariables = {
       PS1 = "%F{blue}%~%f $ ";
     };
+    envExtra = "path+=('/home/ruben/.nix-profile/bin')\n";
     initExtra = builtins.concatStringsSep "\n" [
       "unsetopt BEEP"
       ""
